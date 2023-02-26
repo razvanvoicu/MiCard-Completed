@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -15,11 +16,11 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('images/angela.jpg'),
+              radius: 200.0,
+              backgroundImage: AssetImage('images/raz.jpg'),
             ),
             Text(
-              'Angela Yu',
+              'Raz Voicu',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Text(
-              'FLUTTER DEVELOPER',
+              'ENGINEER EXTRAORDINAIRE',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
                 color: Colors.teal.shade100,
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    '+44 123 456 789',
+                    '+65 9773 1350',
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontFamily: 'Source Sans Pro',
@@ -68,7 +69,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'angela@email.com',
+                    'root@raz.sg',
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.teal.shade900,
